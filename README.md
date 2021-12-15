@@ -1,11 +1,11 @@
-##About
+## About
 This repo contains a chess puzzle scraper that can scrape chess puzzles from user defined web or local files. 
 
 It also transforms chess puzzle data in FEN format to a format that can be easily consumed by downstream task.
 
 Users can either run the scrips directly or run it from command line. 
 
-##Main Functionality:
+## Main Functionality:
 
 1. get data
 
@@ -23,7 +23,7 @@ Users can either run the scrips directly or run it from command line.
 	
 		{'id': 1, 'board': [[{None}, {'type': 'rook', 'side': 'white'}, {'type': 'bishop', 'side': 'white'}, {None}, {None}, {None}, {None}, {'type': 'rook', 'side': 'white'}], [{'type': 'pawn', 'side': 'white'}, {'type': 'king', 'side': 'white'}, {'type': 'pawn', 'side': 'black'}, {'type': 'pawn', 'side': 'white'}, {None}, {None}, {None}, {'type': 'pawn', 'side': 'white'}], [{None}, {'type': 'bishop', 'side': 'white'}, {None}, {'type': 'pawn', 'side': 'black'}, {None}, {None}, {None}, {'type': 'knight', 'side': 'white'}], [{None}, {'type': 'queen', 'side': 'black'}, {None}, {None}, {None}, {None}, {None}, {None}], [{'type': 'knight', 'side': 'black'}, {None}, {None}, {None}, {'type': 'pawn', 'side': 'black'}, {'type': 'pawn', 'side': 'white'}, {None}, {None}], [{None}, {None}, {None}, {None}, {None}, {None}, {None}, {None}], [{'type': 'pawn', 'side': 'black'}, {None}, {'type': 'pawn', 'side': 'black'}, {None}, {None}, {None}, {'type': 'pawn', 'side': 'black'}, {'type': 'pawn', 'side': 'black'}], [{None}, {None}, {None}, {None}, {None}, {None}, {None}, {'type': 'king', 'side': 'black'}]], 'moves': ['Qd', 'Ka', 'cxbN#']}
 		
-##Testing:
+## Testing:
 
 
 	$pytest -v
@@ -38,7 +38,7 @@ You can see
 		
 
 	
-##Running From Command Line:
+## Running From Command Line:
 
 1. Provide the path of where the raw FEN data is saved locally. Default is to process data from web.
 
