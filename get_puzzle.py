@@ -6,7 +6,7 @@ from datetime import datetime
 
 class DataProcess():
 
-    def get_fen_block_from_local(self, local_file_path = 'm8n2.txt'):
+    def get_fen_block_from_local(self, local_file_path = 'data/m8n2.txt'):
         """
         This function gets initial board position in FEN format and solution moves from a saved local file.
         
