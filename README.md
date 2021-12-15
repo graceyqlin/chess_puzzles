@@ -3,6 +3,8 @@ This repo contains a chess puzzle scraper that can scrape chess puzzles from use
 
 It also transforms chess puzzle data in FEN format to a format that can be easily consumed by downstream task.
 
+Testing functions are saved in get _ puzzle _ test.py.
+
 Users can either run the scrips directly or run it from command line. 
 
 ## Main Functionality:
